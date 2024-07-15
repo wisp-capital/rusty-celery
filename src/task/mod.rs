@@ -1,4 +1,5 @@
 //! Provides the [`Task`] trait as well as options for configuring tasks.
+#![allow(deprecated)]
 
 use async_trait::async_trait;
 use chrono::{DateTime, NaiveDateTime, Utc};
